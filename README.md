@@ -1,5 +1,5 @@
 # alpine-nginx-php7
 
-> source from : https://github.com/sebknoth/alpine-nginx-php7.git
+> source from : https://github.com/sebknoth/alpine-nginx-php7.git .
 
-test
+test and add more php extension dependencies.
