@@ -2,3 +2,5 @@
 > source from : https://github.com/sebknoth/alpine-nginx-php7.git .
 
 test and add more php extension dependencies.
+
+> volume : -v /path:/usr/share/nginx/html
