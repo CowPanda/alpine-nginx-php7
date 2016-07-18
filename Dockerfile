@@ -20,7 +20,7 @@ RUN apk upgrade -U && \
     php7-gd \
     php7-posix \
     php7-session \
-    php7-mongodb \
+    php7-mongodb@testing \
     php7-iconv 
 
 COPY /rootfs /
