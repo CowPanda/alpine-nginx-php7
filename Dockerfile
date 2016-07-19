@@ -4,6 +4,7 @@ FROM alpine:latest
 RUN apk --update add php7 php7-xml php7-mcrypt php7-curl php7-json php7-mongodb php7-ctype php7-iconv php7-session  php7-xdebug  php7-memcached php7-pdo php7-fpm nginx supervisor --repository http://nl.alpinelinux.org/alpine/edge/testing/
 
 # Configure nginx
+COPY config/nginx.conf /etc/nginx/nginx.conf
 COPY config/default.conf /etc/nginx/conf.d/default.conf
 
 # Configure PHP-FPM
